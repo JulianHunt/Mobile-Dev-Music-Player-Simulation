@@ -10,6 +10,9 @@
 		B90CF6C6189802F300662A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CF6C5189802F300662A2E /* Foundation.framework */; };
 		B90CF6C9189802F300662A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF6C8189802F300662A2E /* main.m */; };
 		B90CF6CD189802F300662A2E /* Lecture_6.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B90CF6CC189802F300662A2E /* Lecture_6.1 */; };
+		B90CF6D51898031E00662A2E /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF6D41898031E00662A2E /* Song.m */; };
+		B90CF6D81898049700662A2E /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF6D71898049700662A2E /* Playlist.m */; };
+		B90CF6DB189804B000662A2E /* MusicCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF6DA189804B000662A2E /* MusicCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		B90CF6C8189802F300662A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B90CF6CB189802F300662A2E /* Lecture 6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lecture 6-Prefix.pch"; sourceTree = "<group>"; };
 		B90CF6CC189802F300662A2E /* Lecture_6.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lecture_6.1; sourceTree = "<group>"; };
+		B90CF6D31898031E00662A2E /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		B90CF6D41898031E00662A2E /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		B90CF6D61898049700662A2E /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		B90CF6D71898049700662A2E /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+		B90CF6D9189804B000662A2E /* MusicCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollection.h; sourceTree = "<group>"; };
+		B90CF6DA189804B000662A2E /* MusicCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,12 @@
 				B90CF6C8189802F300662A2E /* main.m */,
 				B90CF6CC189802F300662A2E /* Lecture_6.1 */,
 				B90CF6CA189802F300662A2E /* Supporting Files */,
+				B90CF6D9189804B000662A2E /* MusicCollection.h */,
+				B90CF6DA189804B000662A2E /* MusicCollection.m */,
+				B90CF6D31898031E00662A2E /* Song.h */,
+				B90CF6D41898031E00662A2E /* Song.m */,
+				B90CF6D61898049700662A2E /* Playlist.h */,
+				B90CF6D71898049700662A2E /* Playlist.m */,
 			);
 			path = "Lecture 6";
 			sourceTree = "<group>";
@@ -139,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90CF6D51898031E00662A2E /* Song.m in Sources */,
+				B90CF6DB189804B000662A2E /* MusicCollection.m in Sources */,
+				B90CF6D81898049700662A2E /* Playlist.m in Sources */,
 				B90CF6C9189802F300662A2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +269,7 @@
 				B90CF6D2189802F300662A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
